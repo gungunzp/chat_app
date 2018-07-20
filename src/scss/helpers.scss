@@ -1,0 +1,23 @@
+@mixin container($max-width: $container-width, $padding-sides: $tile-gutter) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  padding-left: $padding-sides;
+  padding-right: $padding-sides;
+  width: 100%;
+}
+
+@mixin custom-scroll($color: $white) {
+  &::-webkit-scrollbar {
+    width: .8rem;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $color;
+    border-radius: 1rem;
+    border: .2rem solid transparent;
+    background-clip: padding-box;
+  }
+  &::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}

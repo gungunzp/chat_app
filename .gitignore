@@ -1,0 +1,19 @@
+# https://gungunzp.github.io/
+
+__tasks/*
+node_modules/*
+package-lock.json
+
+
+# IntellijIdea files
+.idea/
+
+# mac
+*._*
+.DS_Store
+
+# windows
+RemoteSystemsTempFiles
+Thumbs.db
+
+######### dist/
